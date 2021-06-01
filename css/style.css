@@ -4,15 +4,13 @@
 
 header{
     background-color: #333;
-    width: 100%;
+    width: 90%;
     height: 80px;
-    margin: 10px 0;
+    margin: 10px 5%;
     margin-bottom: 30px;
-
-
 }
 
-header .img{
+header img{
     padding-left: 20px;
     padding: 10px auto;
     float: left;
@@ -27,12 +25,6 @@ body{
     
 }
 
-nav{
-    background-color: #333;
-    margin-bottom: 20px;
-    width: 100%;
-    margin-bottom: 30px;
-}
 
 nav ul{
     position: relative;
@@ -51,37 +43,59 @@ nav ul li a{
     color: #f2f2f2;
     text-decoration: none;
     font-weight: bold;
-    padding-left: 150px;
+    padding-left: 100px;
+    float: left;
+    
+}
+main{
+    width: 100%;
 }
 
-.placeholder0{
-    margin: auto;
-    width: 100%;
+main section{
+    width: 90%;
+    margin: 0 6.5%;
     margin-bottom: 30px;
 
 }
 
-div .placeholder{
+main section img{
+    width: 95%;
+}
+
+/* div .placeholder{
     display: inline;
     margin-bottom: 30px;
+    margin-left: 120px;
 
 }
+
+ div{
+    float: left;
+    margin-left: 70px;
+    justify-content: space-between;
+} */
 
 div{
-
-    display: flex;
-    justify-content: space-between;
+    width: 85%;
+    margin: 10px 6.5%;
 }
 
+div img{
+    width: 30%;
+    margin:0;
+    padding: 0;
+}
 
-
-.placeholder1{
-    width: 50%;
-    clear: both;
-    float: left;
+.placeholder{
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 30px;
 
-
+}
+.placeholder3{
+    margin-left: 58px;
+    margin-right: 60px;
+    margin-bottom: 30px;
 
 }
 
@@ -89,13 +103,23 @@ div{
 #paragraph1{
     text-align: justify;
     margin-bottom: 30px;
+    width: 90%;
 
 }
+main article img{
+    width: 50%;
+    clear: both;
+    float: left;
+    margin-left: 95px;
+    margin-bottom: 30px;
+}
+
 
 p{
-    padding: 15px;
-    width: 50%;
+    padding: 5px;
+    width: 42.5%;
     height: 250px;
+    margin: 0 0 0 0;
     overflow: scroll;
     border: 1px solid #ccc;
 }
@@ -109,7 +133,7 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    width: 30%;
+    width: 20%;
     margin: 4px 10%;
     cursor: pointer;
     border-radius: 20px;
@@ -125,9 +149,9 @@ footer{
     clear: both;
     background-color: #333;
     width: 100%;
-    margin: 15px 0;
+    margin: 0 -10px -10px 0;
     color: #f2f2f2;
-    height: 70px;
+    height: 80px;
     text-decoration: none;
     font-weight: bold;
     text-align: center;

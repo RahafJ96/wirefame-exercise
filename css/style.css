@@ -4,37 +4,46 @@
 
 header{
     background-color: #333;
-    width: 90%;
-    height: 80px;
-    margin: 10px 5%;
+    padding: 10px 0;
+    vertical-align: middle;
+    overflow: auto;
+    width: 100%;
     margin-bottom: 30px;
 }
 
-header img{
-    padding-left: 20px;
-    padding: 10px auto;
+body header img{
+    padding-left:100px ;
     float: left;
+    vertical-align: bottom;
+    
 }
 
+header nav .head-main{
+    margin: 0 auto;
+    width: 80%;
+}
+
+nav ul{
+    position: relative;
+    float: left;
+    list-style: none;
+    vertical-align: middle;
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: whitesmoke;
     width: 100%;
     
 }
 
 
-nav ul{
-    position: relative;
-    
-}
 
-nav ul li {
+header ul li {
     display: inline-block;
     padding: 10px;
-
+    margin-right: 60px;
 }
 
 
@@ -43,12 +52,14 @@ nav ul li a{
     color: #f2f2f2;
     text-decoration: none;
     font-weight: bold;
-    padding-left: 100px;
+    padding-left: 120px;
+    padding-top: 25px;
     float: left;
     
-}
+} 
 main{
-    width: 100%;
+     width: 100%;
+        overflow: auto;
 }
 
 main section{
@@ -62,66 +73,42 @@ main section img{
     width: 95%;
 }
 
-/* div .placeholder{
-    display: inline;
+div:first-child img{
+    width: 100%;
     margin-bottom: 30px;
-    margin-left: 120px;
-
 }
 
- div{
-    float: left;
-    margin-left: 70px;
-    justify-content: space-between;
-} */
-
-div{
-    width: 85%;
-    margin: 10px 6.5%;
-}
-
-div img{
-    width: 30%;
-    margin:0;
-    padding: 0;
-}
-
-.placeholder{
-    margin-left: 0;
-    margin-right: 0;
+div:nth-child(2) img{
+    width: 23%;
     margin-bottom: 30px;
+    margin-left: 100px;
+}
+.placeholder2{
+    margin-left: 40px;
+    margin-right: 40px;
 
 }
-.placeholder3{
-    margin-left: 58px;
-    margin-right: 60px;
-    margin-bottom: 30px;
 
-}
-
-
-#paragraph1{
+.imageAlign{
+    clear: both;
     text-align: justify;
     margin-bottom: 30px;
-    width: 90%;
-
-}
-main article img{
-    width: 50%;
-    clear: both;
     float: left;
-    margin-left: 95px;
+    width: 50%;
     margin-bottom: 30px;
 }
 
-
-p{
+article {
     padding: 5px;
     width: 42.5%;
-    height: 250px;
-    margin: 0 0 0 0;
+    height: 300px;
+    margin: 0  0 0;
     overflow: scroll;
     border: 1px solid #ccc;
+}
+article h3{
+    font-weight: bold;
+
 }
 
 .button{
@@ -148,8 +135,8 @@ p{
 footer{
     clear: both;
     background-color: #333;
-    width: 100%;
-    margin: 0 -10px -10px 0;
+    width: 100.5%;
+    margin: 0 -11px -10px 0;
     color: #f2f2f2;
     height: 80px;
     text-decoration: none;
